@@ -1,0 +1,57 @@
+
+.full-height-image {
+    height: 80vh;
+    max-height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.navbar-nav {
+    font-size: 1.25rem;
+    gap: 3rem;
+}
+.navbar .container {
+    justify-content: start;
+
+}
+.navbar {
+    background-color: #2F4550 !important;
+}
+/* Change navbar item text color to pure white */
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+/* Optional - hover effect for navbar items */
+.nav-link:hover {
+    color: #ddd !important;
+}
+.large-text {
+    font-size: 29px;
+}
+
+
+#about img, #experience img, #contact img {
+    width: 4rem; /* Adjust this value to match the visual size of the h2 text */
+    height: 4rem; /* Maintain aspect ratio */
+    object-fit: contain;
+    margin-top: 0.5rem; /* Space between the heading and the image */
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #F1F7EE;
+}
+
+body, body *:not(h1) {
+    font-family: 'Roboto', sans-serif;
+}
