@@ -1,3 +1,5 @@
+/*  Joseph Doiron's Portfolio
+    December 11 2024 */
 
 .full-height-image {
     height: 80vh;
@@ -23,12 +25,12 @@
 .navbar {
     background-color: #2F4550 !important;
 }
-/* Change navbar item text color to pure white */
+
 .nav-link {
     color: #FFFFFF !important;
 }
 
-/* Optional - hover effect for navbar items */
+
 .nav-link:hover {
     color: #ddd !important;
 }
@@ -38,10 +40,10 @@
 
 
 #about img, #experience img, #contact img {
-    width: 4rem; /* Adjust this value to match the visual size of the h2 text */
-    height: 4rem; /* Maintain aspect ratio */
+    width: 4rem; 
+    height: 4rem; 
     object-fit: contain;
-    margin-top: 0.5rem; /* Space between the heading and the image */
+    margin-top: 0.5rem; 
 }
 
 h1 {
